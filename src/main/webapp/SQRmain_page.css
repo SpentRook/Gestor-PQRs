@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-image: linear-gradient(120deg, #C5E2FF, white);
+    
+}
+#head{
+    background-color:white;
+    margin: 100px;
+    border: 10px solid white;
+    border-radius: 30px;
+}
+
+#SQRbox{
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 10px solid white;
+    background-color:white;
+    border-radius: 30px;
+}
+
+#subBTN,button, #loginBtn{
+    border-radius:15px;
+    background-color:#C5E2FF;
+}
+
+#admin{
+    background: white;
+    width: 500px;
+    border: 50px;
+    padding: 30px;
+    transform: scale(0) ;
+    transition: 1s;
+    position: fixed;
+}
+#admin.active{
+    position: fixed;
+    background: white;
+    width: 500px;
+    border: 50px;
+    padding: 30px;
+    transform: scale(1) translate(450px, -100px);
+    border: 5px solid white;
+    border-radius: 10px;
+    background: solid;
+   }

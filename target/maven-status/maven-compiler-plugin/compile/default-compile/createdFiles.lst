@@ -1,6 +1,3 @@
 com\mycompany\api_richardguevara\Cliente.class
-com\mycompany\api_richardguevara\cambiarEstadoPQR.class
-com\mycompany\api_richardguevara\verPQRs.class
 com\mycompany\api_richardguevara\AdministrarArchivo.class
 com\mycompany\api_richardguevara\AdministrarPQRs.class
-com\mycompany\api_richardguevara\GuardarSQR.class

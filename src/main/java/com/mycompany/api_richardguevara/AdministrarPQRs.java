@@ -88,9 +88,9 @@ public class AdministrarPQRs extends HttpServlet {
             throws ServletException, IOException {
 
         response.setContentType("text/html;charset=UTF-8");
-        final String json = "{\"id\":46,\"nombre\":\"Miguel\",\"empresa\":\"Autentia\"}";
+        /*final String json = "{\"id\":46,\"nombre\":\"Miguel\",\"empresa\":\"Autentia\"}";
         final Gson gson = new Gson();
-        final Properties properties = gson.fromJson(json, Properties.class);
+        final Properties properties = gson.fromJson(json, Properties.class);*/
         String nombre = request.getParameter("name");
         String cedula = request.getParameter("identification");
         String direccion = request.getParameter("address");

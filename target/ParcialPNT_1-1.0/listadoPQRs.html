@@ -7,7 +7,10 @@
         <script src="verPQRs.js" type="text/javascript"></script>
         <link rel="stylesheet" href="estilosVerPQRs.css">
     </head>
+    
     <body>
+        <div id="mensajeVertical"><p>Porfavor orientar el dispositivo horizontalmente para visualizar el contenido de la pagina</p></div>
+        <div id="contenidoNormal">
         <div id="listaPQRs"> 
             <table id="PQRs" border="1">
                 <thead>
@@ -28,8 +31,9 @@
 
         </div>
         <div>
-            <button id="botonEliminarPQR" onclick="borrarPQR()">Eliminar SQR</button> 
-            <input type="text" id="eliminarPQR" name="valSQR" size="23" maxlength="5" placeholder="Ingrese el numero de la SQR" required>
+            <button id="botonEliminarPQR" onclick="borrarPQR()">Eliminar PQR</button> 
+            <input type="text" id="eliminarPQR" name="valSQR" size="23" maxlength="5" placeholder="Ingrese el numero de la PQR" required>
+        </div>
         </div>
     </body>
 </html>

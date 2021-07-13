@@ -6,41 +6,57 @@ body{
 }
 #head{
     background-color:white;
-    margin: 100px;
+    margin: 3vw;
     border: 10px solid white;
     border-radius: 30px;
+}
+.container{
+
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #SQRbox{
-    margin-left: 500px;
-    margin-right: 500px;
+    display: inline-block;
     border: 10px solid white;
     background-color:white;
     border-radius: 30px;
+    padding: 1vw;
+}
+#form-items{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 5vw;
+    align-items: flex-start;
+    
 }
 
-#subBTN,button, #loginBtn{
+#form-items input{
+    width: 100%
+}
+
+button, #subBTN, #loginBtn{
     border-radius:15px;
     background-color:#C5E2FF;
 }
 
+#abrirAside{
+    margin: 3vw 0;
+}
+
 #admin{
     background: white;
-    width: 500px;
-    border: 50px;
+    width: auto;
+    border-radius: 15px;
     padding: 30px;
-    transform: scale(0) ;
+    transform: scale(0);
     transition: 1s;
-    position: fixed;
+    display: none;
 }
 #admin.active{
-    position: fixed;
-    background: white;
-    width: 500px;
-    border: 50px;
-    padding: 30px;
-    transform: scale(1) translate(450px, -100px);
-    border: 5px solid white;
-    border-radius: 10px;
-    background: solid;
+    display: inline-block;
+    transform: scale(1);
+    transform: translateY(-15vw);
    }
